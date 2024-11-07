@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
-  res.send('Atividade Integração e Entrega Contínua - Eddie Medrado - FATEC - 2024');
+  res.send('Hello Worl!');
 });
 
 app.listen(port, () => {
